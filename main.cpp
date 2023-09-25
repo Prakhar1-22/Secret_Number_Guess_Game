@@ -8,11 +8,9 @@ using namespace std;
 int main() {
     srand(time(0));
 int minNumber,maxNumber;
-    cin>>minNnumbr;
-    cin>>maxNumber;
-
     char playAgain;
-    
+    cout<<"Enter the value"<<endl;
+    cin>>
     do {
         int secretNumber = rand() % (maxNumber - minNumber + 1) + minNumber;
         int attempts = 0;
